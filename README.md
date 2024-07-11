@@ -1,7 +1,7 @@
 ### Car Tracking Using OpenCV
 
 #### Overview
-This project demonstrates car tracking in a video using OpenCV and a Haar Cascade classifier for car detection. It utilizes the KCF (Kernelized Correlation Filters) tracker for tracking individual cars across frames.
+This project demonstrates car tracking in a video using OpenCV and a Haar Cascade classifier for car detection. It utilizes the KCF (Kernelized Correlation Filters) tracker for tracking individual cars with there speed across frames.
 
 #### Requirements
 - OpenCV (version 2.x or higher)
@@ -29,7 +29,7 @@ This project demonstrates car tracking in a video using OpenCV and a Haar Cascad
 #### Example
 - Below is a snapshot of car tracking in action:
 
-  ![Car Tracking Example](path/to/your/image.png)
+  ![Car Tracking Example](https://github.com/Asazin007/CarDetectSpeedCount/blob/main/Car.jpg)
 
 #### Notes
 - Adjust parameters like `scale` for car detection sensitivity and region of interest (`detected_cars[i].y`) for specific areas.
